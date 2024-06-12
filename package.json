@@ -1,6 +1,6 @@
 {
   "name": "create-hex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "this is a package for crating an opinionated folder structure for back services and api'",
   "main": "index.ts",
   "bin": {
