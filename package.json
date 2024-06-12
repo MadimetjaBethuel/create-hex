@@ -26,6 +26,10 @@
     "inquirer": "^8.2.6",
     "ts-node": "^10.9.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadimetjaBethuel/create-hex.git"
+  },
   "author": "shadowkey",
   "license": "ISC"
 }
