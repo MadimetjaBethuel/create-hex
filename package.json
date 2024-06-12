@@ -1,0 +1,31 @@
+{
+  "name": "create-hex",
+  "version": "0.0.0",
+  "description": "this is a package for crating an opinionated folder structure for back services and api'",
+  "main": "index.ts",
+  "bin": {
+    "create-hex": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "ts-node index.ts",
+    "lint": "eslint --ignore-path ./.gitignore .",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "nodemon": "^3.1.3",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "ts-node": "^10.9.2"
+  },
+  "author": "shadowkey",
+  "license": "ISC"
+}
